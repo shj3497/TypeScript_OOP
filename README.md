@@ -17,3 +17,11 @@ TypeScript는 JavaScript가 동작하는 어떤 곳에서도 대체해서 사용
 > Java, Kotlin, C, C++, Go, Swift, TS
 
 ### [Setting](./setting.md)
+
+<br/>
+
+## Important
+
+TypeScript를 사용함에 있어 타입을 최대한 명확하게 명시함으로써 타입이 조금 더 보장되는 방식으로 프로그래밍을 하는 것이 굉장히 중요!
+
+변수와 클래스와 함수에 어떤 타입의 데이터를 전달할 수 있고, 받아올 수 있는지를 명확하고 조금 더 세부적으로 작성하는 것이 가장 중요하다.

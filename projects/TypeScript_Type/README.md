@@ -31,3 +31,17 @@ Union Type: OR
 
 Discriminated Union  
 Union type을 사용 할 때 어떤 케이스든 공통적인 프로퍼티를 가지고 있음으로서 구분하기 쉽게 만든다.
+
+### [`1-7-intersection.ts`](./1-7-intersection.ts)
+
+Union type과는 반대로 &(and) 방식
+
+### [`1-8-enum.ts`](./1-8-enum.ts)
+
+enum은 Union type의 string literal로 대체해서 사용 가능하기 때문에 enum 사용을 자제한다.  
+Union type이 더 안전!
+
+### [`1-9-inference.ts`](./1-9-inference.ts)
+
+Type 추론! 모든 변수나 함수에 타입을 정해주지 않아도 자동으로 타입이 추론되기도한다.  
+하지만 타입을 정확하게 명시하는게 좋다고 생각한다.

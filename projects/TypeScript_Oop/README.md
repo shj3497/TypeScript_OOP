@@ -54,3 +54,16 @@ OOP : Object Orinted Programing
 <br/>
 
 ## 파일 구분
+
+### [`3-1-without-oop.ts`](./3-1-without-oop.ts)
+
+객체지향이 적용되지 않은 모습
+
+### [`3-2-class.ts`](./3-2-class.ts)
+
+static 키워드의 의미
+
+### [`3-3-encapsulation.ts`](./3-3-encapsulation.ts)
+
+public, private, protected의 의미  
+getter, setter의 의미

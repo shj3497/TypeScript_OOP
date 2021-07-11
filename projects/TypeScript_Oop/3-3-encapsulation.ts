@@ -44,4 +44,48 @@
   maker.fillCoffeeBeans(20);
   console.log(maker);
   
+
+  class User1{    
+    private firstName: string;
+    private lastName: string;
+    get fullName(): string {
+      return `${this.lastName} ${this.firstName}`;
+    }
+
+    constructor(firstName: string, lastName: string){
+      this.firstName = firstName;
+      this.lastName = lastName;
+    }
+  }
+
+
+  //? User1 === User2
+  class User2{    
+    get fullName(): string {
+      return `${this.lastName} ${this.firstName}`;
+    }
+  
+    private internalAge: number = 0;
+    get age(): number{
+      return this.internalAge;
+    }
+    set age(num: number){
+      if(num < 0){
+        throw new Error('나이는 음수가 될 수 없어!');
+      }
+      this.internalAge = num;
+    }
+
+    //! constructor()안에서 private를 선언해 사용해 줌으로서 class내부에서 변수선언을 할 필요가 없다.
+    constructor(private firstName: string, private lastName: string){}
+
+  }
+
+  const user = new User2('HyoekJin', 'Shim');
+  console.log(user.fullName);
+  // user.lastName = 'Kim'
+  console.log(user.fullName);
+  user.age = 28;
+  console.log(user);
+
 }

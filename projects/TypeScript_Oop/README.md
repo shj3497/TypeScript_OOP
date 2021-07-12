@@ -2,7 +2,7 @@
 
 ## What is OOP?
 
-OOP : Object Orinted Programing
+OOP : Object Oriented Programing
 
 <br/>
 
@@ -76,3 +76,7 @@ getter, setter의 의미
 
 상속  
 부모클래스로부터 상속받은 변수나 함수를 사용할 때 super를 사용한다.
+
+### [`3-6-polymorphism.ts`](./3-6-polymorphism.ts)
+
+다형성

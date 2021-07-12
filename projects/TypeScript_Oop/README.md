@@ -67,3 +67,12 @@ static 키워드의 의미
 
 public, private, protected의 의미  
 getter, setter의 의미
+
+### [`3-4-abstraction.ts`](./3-4-abstraction.ts)
+
+추상화, 인터페이스를 사용
+
+### [`3-5-inheritance.ts`](./3-5-inheritance.ts)
+
+상속  
+부모클래스로부터 상속받은 변수나 함수를 사용할 때 super를 사용한다.

@@ -88,3 +88,9 @@ getter, setter의 의미
 ### [`3-8-final_document.ts`](./3-8-final_document.ts)
 
 3-7-composition.ts에서 클래스 상속이 아닌 컴포지션만 사용해서 코드를 정리했다.
+
+### [`3-9-abstract.ts`](./3-9-abstract.ts)
+
+3-6-polymorphism.ts에서 추상클래스로 전환  
+CoffeeMachine을 추상클래스로 변환해주었다.  
+추상클래스에 있는 추상함수는 추상클래스를 상속받는 클래스에서 구현부를 작성하여 사용해야한다.

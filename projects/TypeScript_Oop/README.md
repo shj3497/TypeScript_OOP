@@ -80,3 +80,11 @@ getter, setter의 의미
 ### [`3-6-polymorphism.ts`](./3-6-polymorphism.ts)
 
 다형성
+
+### [`3-7-composition.ts`](./3-7-composition.ts)
+
+클래스를 상속해서 여러개의 클래스가 생성된 코드
+
+### [`3-8-final_document.ts`](./3-8-final_document.ts)
+
+3-7-composition.ts에서 클래스 상속이 아닌 컴포지션만 사용해서 코드를 정리했다.

@@ -54,4 +54,14 @@
   while(stack.size !== 0){
     console.log(stack.pop());
   }
+
+  /**
+   * {                                                 
+        value: 'HyeokJin 3',                            
+        next: {                                         
+          value: 'HyeokJin 2',                          
+          next: { value: 'HyeokJin 1', next: undefined }
+        }                                               
+      }                                                 
+   */
 }

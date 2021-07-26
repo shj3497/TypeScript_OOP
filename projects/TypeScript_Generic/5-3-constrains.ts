@@ -48,4 +48,24 @@
   const hyeokjinAfterPay2 = pay(hyeokjin);
   const bobAfterPay2 = pay(bob);
   hyeokjinAfterPay2.workFullTime();
+
+
+  //TODO 예제1
+  const obj = {
+    name: 'hyeokjin',
+    age: 28
+  }
+
+  const obj2 = {
+    animal: '🦔'
+  }
+
+  //TODO getValue를 이용해서 원하는 결과값을 출력하는 함수를 만들어보자
+  console.log(getValue(obj, 'name')); // hyeokjin
+  console.log(getValue(obj, 'age')); // 28
+  console.log(getValue(obj2, 'animal')); // 🦔
+
+  function getValue<T, K extends keyof T>(obj: T, key: K): T[K]{
+    return obj[key];
+  }
 }

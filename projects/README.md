@@ -23,3 +23,7 @@ TypeScript에서 자료구조 없이 Stack을 구현해보자.
 ### `TypeScript_Generic`
 
 TypeScript에서 Generic이란?
+
+### `TypeScript_Challenge_03`
+
+TypeScript_Challenge_02에서 구현한 Stack을 Generic을 사용해서 구현해보기
